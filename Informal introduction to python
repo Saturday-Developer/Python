@@ -1,0 +1,120 @@
+
+Python introduction
+
+Input and output distinguished by presence or absence of prompt
+(>>> and …)
+
+You must type everything after prompt, when prompt appear.
+
+Lines do not begin with prompt are output from interpreter.
+
+
+Comments in python begin with #
+
+You can use terminal as calculator 
+  e.g:-  2 + 2 	   (50 - 5*6) / 4
+
+
+Integer Number  (2,4,20) has type int..     Fractional number (5.0,1.6) have type float
+
+
+Division ( / ) return float
+Floor Division ( // ) discard the fractional part
+( % ) return remainder of the division
+
+Number = Flored quotient * divisor + remainder
+
+
+To calculate power :-            5 ** 2 = 5 raise to power of 2
+          5 ** 7 = 5 raise to power of 7
+
+
+If a variable is not “defined” (assigned a value), trying to use it will give you an error:
+
+   Variable name is not defined
+
+In interactive mode the last printed expression is assigned to the variable  _ . 
+
+    >>> tax = 12.5 / 100
+>>> price = 100.50
+>>> price * tax
+12.5625
+>>> price + _
+113.0625
+>>> round(_, 2)
+113.06
+
+The variable _ is read only. Do not explicitly assign value
+
+
+String     Python can also manipulate strings, which can be expressed in several ways. They can be enclosed in a single quote (‘…’) or double quote (“ …. “)
+
+\ used as escape character
+
+>>> 'spam eggs'  # single quotes
+'spam eggs'
+>>> 'doesn\'t'  # use \' to escape the single quote...
+"doesn't"
+>>> "doesn't"  # ...or use double quotes instead
+"doesn't"
+>>> '"Yes," they said.'
+'"Yes," they said.'
+>>> "\"Yes,\" they said."
+'"Yes," they said.'
+>>> '"Isn\'t," they said.'
+
+
+If you don’t wait character prefaced by \ to be interpreted as special character, you can use raw string by adding r before the first quote
+
+>>> print('C:\some\name')  # here \n means newline!
+C:\some
+ame
+>>> print(r'C:\some\name')  # note the r before the quote
+C:\some\name
+
+
+String literal can span multiple lines. One way is using triple quotes “””…”””    or ‘’’….’’’   End of lines are automatically included in the string
+
+It’s possible to prevent this by adding a \ at the end of line
+  
+
+String can be concatenated with + operator and repeated with *
+
+  >>> # 3 times 'un', followed by 'ium'
+>>> 3 * 'un' + 'ium'
+'unununium'
+
+Two or more string literals (i.e. the ones enclosed between quotes) next to each other are automatically concatenated.
+
+>>> 'Py' 'thon'
+'Python'
+
+
+This feature is particularly useful when you want to break long strings:
+
+>>> text = ('Put several strings within parentheses '
+...         'to have them joined together.')
+>>> text
+'Put several strings within parentheses to have them joined together.'
+
+
+Strings can be indexed (subscripted), with the first character having index 0. There is no separate character type; a character is simply a string of size one:
+
+>>> word = 'Python'
+>>> word[0]  # character in position 0
+'P'
+>>> word[5]  # character in position 5
+'n'
+
+Indices may also be negative numbers, to start counting from the right:
+
+>>> word[-1]  # last character
+'n'
+>>> word[-2]  # second-last character
+'o'
+>>> word[-6]
+'P'
+
+
+
+
