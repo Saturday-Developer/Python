@@ -1,0 +1,76 @@
+Python operators
+
+Operators are used to perform operations on variables and value.
+
+e.g = print(10 + 5)
+
+————————
+
+Arithmetic
+Assignment
+Comparison
+Logical
+Identity
+Membership
+Bitwise
+
+——————
+
+Arithmetic operators are used with numeric values to perform common mathematical operation
+
++, - , *, /, %, // - floor division, ** = exponential
+—————————
+Assignment operators are used to assign values to variables:
+x = 5,
+x += 3
+x -= 3
+x*= 3
+x /= 3
+x %= 3
+x //= 3
+x **= 3
+
+——————————
+Comparison operators are used to compare two values:
+
+x == y
+x != y
+x > y
+x >= y
+x <y
+x <= y
+
+——————————
+Logical operators are used to combine conditional statements
+
+
+x <5 and x <10 
+x <5 or x <10 
+not(x <5 and x <10 )
+
+—————————
+Membership operators are used to test if a sequence is presented in an object:
+
+ 
+In :- 
+Returns True if a sequence with the specified value is present in the object
+
+x = ["apple", "banana"]
+
+print("banana" in x)
+
+not in :- 
+Returns True if a sequence with the specified value is not present in the object
+
+
+x = ["apple", "banana"]
+
+print("banana" not in x)
+
+
+
+
+
+
+
+
