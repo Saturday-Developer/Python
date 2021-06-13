@@ -1,0 +1,62 @@
+
+
+A for loop is used for iterating over a sequence (that is either a list, a tuple, a dictionary, a set, or a string).
+
+fruits = ["apple", "banana", "cherry"]
+for x in fruits:
+  print(x)
+
+Looping Through a String
+
+
+for x in "banana":
+  print(x)
+
+
+
+With the break statement we can stop the loop before it has looped through all the items:
+
+
+fruits = ["apple", "banana", "cherry"]
+for x in fruits:
+  print(x)
+  if x == "banana":
+    break
+
+
+
+The continue Statement
+
+With the continue statement we can stop the current iteration of the loop, and continue with the next:
+
+fruits = ["apple", "banana", "cherry"]
+for x in fruits:
+  if x == "banana":
+    continue
+  print(x)
+
+
+
+The else keyword in a for loop specifies a block of code to be executed when the loop is finished:
+
+for x in range(6):
+  print(x)
+else:
+  print("Finally finished!")
+
+
+
+The else block will NOT be executed if the loop is stopped by a break statement.
+
+
+
+
+
+
+
+
+
+
+
+
+
